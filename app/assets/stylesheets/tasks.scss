@@ -1,0 +1,92 @@
+// Place all the styles related to the Tasks controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+
+.texto{
+    float: left;
+    border-radius: 5px;
+}
+body {
+
+    padding: 1px;
+    background-color: white;
+    font-size: 20px;
+    font-family: sans-serif;
+    }
+
+    .datos{
+        font-family: sans-serif;
+        float: left;
+        background: #FFF6CA;
+        border-radius: 5px;
+    }
+    .creacion {
+        font-family: sans-serif;
+        text-align: center;
+        margin-left: 5px;
+        background: rgb(113, 168, 223);
+        list-style: none;
+        display: grid;
+    }
+
+    .edicion {
+        background-color: #F9E47A;
+        margin-left: 10px;
+        margin-right: 950px;
+        margin-top: 1px;
+        margin-bottom: 15px;
+        border-radius: 5px;
+        padding: 5px;
+        text-align: center;
+    }
+
+    ol{
+        list-style: none;
+        display: grid;
+        grid-template-columns: repeat(7, 1fr);
+        padding: 0;
+    }
+    
+    .dia1{
+        grid-column-start: 4;
+        text-align: center;
+    }
+    
+    .tabla{
+        font-size: 15px;
+        font-family: sans-serif;
+        text-align: center;
+        height: 70px;
+    }
+    
+    .week{
+    font-family: sans-serif;
+        background-color: #F9E47A;
+        font-weight: bold;
+        text-align: center;
+        height: 32.5px;
+    }
+    
+    .calendar{
+        border-top-left-radius: 5px;
+        border-radius: 5px;
+        background: #eee;
+        text-align: center;
+        width: 800px;
+        float: right;
+        padding: 0;
+    
+    }
+
+    .new-task {
+        background-color: #F9E27C;
+        margin-left: 600px;
+        margin-right: 600px;
+        height: 365px;
+        margin-top: 25px;
+        margin-bottom: 200px;
+        border-radius: 10px;
+        text-align: center;
+ 
+    }
+
